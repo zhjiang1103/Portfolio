@@ -2,9 +2,20 @@ p {
     font-size: x-large;
 }
 
+#logo {
+    display: flex;
+    width: 1440px;
+    height: 142px;
+    padding: 37px 85px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(240, 238, 238, 0.15) 50%, rgba(217, 217, 217, 0.00) 100%);
+}
+
 .left {
     float: left;
-    width: 1000px;
+    width: 800px;
     color: #DC7F9B;
     font-family: Koh Santepheap;
     font-size: 60px;
@@ -15,7 +26,7 @@ p {
 
 .right {
     float: left;
-    width: 1000px;
+    width: 800px;
     color: #d0d3d6;
     font-family: Geneva;
     font-size: 20px;
@@ -59,4 +70,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    gap: 70px;
 }
