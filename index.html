@@ -12,7 +12,9 @@
     </div>
     <p style="color: #E9EDF0;
     font-family: Compass Sans;
-    font-size: 20px;"><strong>Personal description</strong></p>
+    font-size: 18px;">I have always had a passion for technology and problem-solving. While studying Math at UCLA, I had the opportunity to work on several projects, both individually and in teams, where I practiced my technical skills and learned how to collaborate effectively with others.
+After graduation, I worked as a special education teacher, where I gained experience in working with diverse groups of individuals and developing creative solutions to help students with disabilities succeed. While working with those students, I saw the transformative power of learning-assistant technology devices. This experience inspired me to pursue a career as a software developer, with a focus on programming and Artificial Intelligence, so that I could contribute to the development of educational technology. 
+</p>
 </header>
 
 <body>
@@ -22,10 +24,11 @@
         <p>Projects</p>
         <div>
             <p>Contacts</p>
-       
+              <form>
                 <button><a href="mailto:janetjiang1103@gmail.com">Email</a></button>
                 <button><a href="https://www.linkedin.com/in/janet-jiang/" target="_blank">LinkedIn</a></button>
                 <button><a href="https://github.com/zhjiang1103">Github</a></button>
+              </form>
         </div>
     </section>
 
@@ -48,12 +51,19 @@
 
     
     <section class="form-container">
+        <h1 style="color: #DC7F9B;">Contact Form</h1>
         <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="name">Name:<span class="required-field"></span></label>
+            <input type="text" id="name" placeholder="Enter your full name"  required>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email">Email:<span class="required-field"></span></label>
+            <input type="email" id="email" placeholder="Enter your email"  required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" >
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" placeholder="Enter your address" >
         </form>
     </section>
 

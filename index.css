@@ -1,5 +1,7 @@
 p {
     font-size: x-large;
+    columns: 3 auto;
+    color: #DC7F9B;
 }
 
 #logo {
@@ -78,14 +80,14 @@ body {
 
 button{
             display: block;
-            background-color: rgb(136, 129, 179);
-            color: #edebed;
+            background-color: #DC7F9B;;
             font-size: large;
-            height:25px;
+            height:35px;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin-bottom: 10px;
 }
 
 .form-container{
@@ -96,4 +98,10 @@ button{
     flex-direction: column;
     align-items: flex-end;
     padding: 20px;
+}
+
+.required-field::after{
+        content: "*";
+        color: white;
+        margin-left: 5px;
 }
