@@ -18,17 +18,15 @@
 <body>
 
     <section class="tag-column">
-        <h1>Home</h1>
-        <h1>Projects</h1>
-        <div id="contacts">
-            <h1>Contacts</h1>
-            <ul>
-                <li><button><a href="mailto:janetjiang1103@gmail.com">Email</a></button></li>
-                <li><button><a href="https://www.linkedin.com/in/janet-jiang/" target="_blank">LinkedIn</a></button></li>
-                <li><button><a href="https://github.com/zhjiang1103">Github</a></button></li>
-            </ul>
+        <p>Home</p>
+        <p>Projects</p>
+        <div>
+            <p>Contacts</p>
+       
+                <button><a href="mailto:janetjiang1103@gmail.com">Email</a></button>
+                <button><a href="https://www.linkedin.com/in/janet-jiang/" target="_blank">LinkedIn</a></button>
+                <button><a href="https://github.com/zhjiang1103">Github</a></button>
         </div>
-
     </section>
 
 
@@ -48,10 +46,16 @@
         </p>
     </section>
 
-    <form>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-    </form>
+    
+    <section class="form-container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </form>
+    </section>
 
     
 
