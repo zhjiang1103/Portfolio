@@ -1,0 +1,62 @@
+p {
+    font-size: x-large;
+}
+
+.left {
+    float: left;
+    width: 1000px;
+    color: #DC7F9B;
+    font-family: Koh Santepheap;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right {
+    float: left;
+    width: 1000px;
+    color: #d0d3d6;
+    font-family: Geneva;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin: top 100px;
+    ;
+}
+
+
+body {
+    background-image: url("https://s3-alpha-sig.figma.com/img/39ce/a592/f8b3da780ffa8a7a58646805de303faa?Expires=1691971200&Signature=idFl95L31RKcRTSYd9T4~SsUn5lY3BD0rRB3ojx8KtzTVi5cvSaGtb9jYBzPsbwymRtCotfXPXvVhrZ08zRrmtfxtr4j3JO94RkF5gi~Fo~vofoSVAHNQuVc24KWUgCzlcPV4PrOyQ51DN20m2Pum8Pez3XLAt~tD3aGTysRFm4xW77F40OUH56KTEM8zcHXXXKOEIGGa7zbHVDoW1Lpvlq-FhSFnLb6rrFWQcuTx8BJxh697CxoiiDxgwy7wVQ1xZo4eHWX8MQoh2hsxw4vxh68TaowHXYzBBVD953K4eMtFswk3lMBM8VOadQXLhXaDn-8SH7ZyJE3B~cQdX7jQA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    /* Optional fallback background color */
+    background-position-x: center;
+    background-position-y: top;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    /* Optional: Prevent the background image from repeating */
+    background-size: cover;
+}
+
+.ellipse {
+    border-radius: 70%;
+    /* Set the border-radius to 50% to create an ellipse */
+    width: 400px;
+    /* Set the width of the image */
+    height: 400px;
+    /* Set the height of the image */
+}
+
+
+
+.tag-column {
+    column-count: 3;
+    column-gap: 2px;
+    color: #F6F6F6;
+    text-align: right;
+    font-family: Koh Santepheap;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
