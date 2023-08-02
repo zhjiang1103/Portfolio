@@ -75,3 +75,14 @@ body {
     align-items: baseline;
     gap: 30px;
 }
+
+button{
+            background-color: rgb(136, 129, 179);
+            color: #edebed;
+            font-size: large;
+            height:25px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+}
