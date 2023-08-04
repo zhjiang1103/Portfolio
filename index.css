@@ -1,3 +1,7 @@
+a {
+    color: white;
+    text-decoration: none;
+}
 p {
     font-size: x-large;
     columns: 3 auto;
@@ -6,7 +10,7 @@ p {
 
 #logo {
     display: flex;
-    width: 1440px;
+    width: inherit;
     padding: 37px 85px;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +43,9 @@ p {
 
 
 body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
     background-image: url("https://s3-alpha-sig.figma.com/img/39ce/a592/f8b3da780ffa8a7a58646805de303faa?Expires=1691971200&Signature=idFl95L31RKcRTSYd9T4~SsUn5lY3BD0rRB3ojx8KtzTVi5cvSaGtb9jYBzPsbwymRtCotfXPXvVhrZ08zRrmtfxtr4j3JO94RkF5gi~Fo~vofoSVAHNQuVc24KWUgCzlcPV4PrOyQ51DN20m2Pum8Pez3XLAt~tD3aGTysRFm4xW77F40OUH56KTEM8zcHXXXKOEIGGa7zbHVDoW1Lpvlq-FhSFnLb6rrFWQcuTx8BJxh697CxoiiDxgwy7wVQ1xZo4eHWX8MQoh2hsxw4vxh68TaowHXYzBBVD953K4eMtFswk3lMBM8VOadQXLhXaDn-8SH7ZyJE3B~cQdX7jQA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
     /* Optional fallback background color */
     background-position-x: center;
@@ -69,7 +76,7 @@ body {
     line-height: normal;
     display: flex;
     justify-content: right;
-    align-items: baseline;
+    align-items: center;
     gap: 60px;
     height: 100px
 }
@@ -93,7 +100,6 @@ button{
     right: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     padding: 20px;
 }
 
@@ -104,12 +110,23 @@ button{
 }
 
 input {
-    width: 10%;
+    width: 100%;
     height: 20px;
     border-radius: 8px;
     outline: none;
     border: 2px solid #c4c4c4;
-    padding: 0 20px;
+    padding: 0 10px;
+    margin-top: 10px;
     box-shadow: 2px 2px 4px rgba(95, 92, 92, 0.1);
   }
   
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 600px)  {
+        p{
+        columns: 1 auto;
+        }
+    }
