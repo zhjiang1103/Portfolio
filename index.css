@@ -7,7 +7,6 @@ p {
 #logo {
     display: flex;
     width: 1440px;
-    height: 40px;
     padding: 37px 85px;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +16,7 @@ p {
 
 .left {
     float: left;
-    width: 600px;
+    width: 200px;
     color: #DC7F9B;
     font-family: Koh Santepheap;
     font-size: 60px;
@@ -27,7 +26,7 @@ p {
 }
 
 .right {
-    float: left;
+    float: right;
     width: 600px;
     color: #d0d3d6;
     font-family: Geneva;
@@ -35,8 +34,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 48px;
-    margin: top 100px;
-    ;
+  
 }
 
 
@@ -63,10 +61,7 @@ body {
 
 
 .tag-column {
-    column-count: 3;
-    column-gap: 2px;
-    color: #F6F6F6;
-    text-align: right;
+    color: #DC7F9B;
     font-family: Koh Santepheap;
     font-size: 20px;
     font-style: normal;
@@ -76,6 +71,7 @@ body {
     justify-content: right;
     align-items: baseline;
     gap: 60px;
+    height: 100px
 }
 
 button{
@@ -91,6 +87,7 @@ button{
 }
 
 .form-container{
+    color: #DC7F9B;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -105,3 +102,14 @@ button{
         color: white;
         margin-left: 5px;
 }
+
+input {
+    width: 10%;
+    height: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 0 20px;
+    box-shadow: 2px 2px 4px rgba(95, 92, 92, 0.1);
+  }
+  
